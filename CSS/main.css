@@ -1,0 +1,228 @@
+body {background: rgb(181, 250, 235);}
+li#fotodes{
+    position: relative;
+     top: -86px;
+}
+.card1 figure{width:100%;}
+.card1 figure#profilepic {width:200px; margin-left: 140px; border-radius: 50%; size: 100px;}
+.card2 figure{width:100%;}
+form{margin-left: 80px;}
+
+      
+@media screen and (min-width: 576px) {
+    body {background: rgb(189, 236, 250);}
+    li#fotodes{
+        position: relative;
+         top: -95px;
+    }
+    .card1 figure{ width:100%;}
+    .card1 figure#profilepic {width:200px; margin-left: 150px; border-radius: 50%; size: 100px;}
+    .card2 figure{ width:100%;}
+    form{margin-left: 110px;}
+}
+
+@media screen and (min-width: 768px) {
+    body {background: rgb(238, 187, 253);}
+    li#fotodes{
+        position: relative;
+         top: -130px;
+    }
+    .card1 figure{ width:50%;}
+    .card1 figure#profilepic {width:200px; margin-left: 240px; border-radius: 50%; size: 100px;}
+    .card2 figure{ width:50%;}
+    form{margin-left: 200px;}
+}
+
+@media screen and (min-width: 992px) {
+    body {background: rgba(247, 189, 123, 0.973);}
+    li#fotodes{
+        position: relative;
+         top: -175px;
+    }
+    .card1 figure{ width:33.333333%;}
+    .card1 figure#profilepic {width:200px; margin-left: 360px; border-radius: 50%; size: 100px;}
+    .card2 figure{ width:33.333333%;}
+    form{margin-left: 320px;}
+}
+
+@media screen and (min-width: 1200px) {
+    body {background: rgb(250, 189, 230);}
+
+    .card li:nth-child(even) {
+        height: 304px;
+    }
+    .card li:nth-child(odd) {
+        height: 438px; 
+    }
+    li#fotodes{
+        position: relative;
+         top: -134px;
+    }
+    .card1 figure{ width:33.333333%;}
+    .card2 figure{ width:33.333333%;}
+    .card1 figure#profilepic {width:200px; margin-left: 450px; border-radius: 50%; size: 100px;}
+    section#photography{height:2050px}
+    section#inspire{height:2050px}
+    form{margin-left: 410px;}
+}
+
+div#drop a:hover{background: rgba(100, 120, 121, 0.425);}
+
+h1#h1sketch {background: rgba(100, 120, 121, 0.425); border-radius: 32px;}
+
+h1#h1photo {background: rgba(100, 120, 121, 0.425); border-radius: 32px; height:55px;}
+
+h1#h1challenge {background: rgba(0, 0, 0, 0.425); border-radius: 32px;}
+
+h5#carousel {color:rgba(255, 255, 255, 0.747);}
+
+#progress {background: rgba(0, 0, 0, 0.493); padding: 22px;  border-radius: 18px;}
+
+.list-group-item {background: rgba(0, 0, 0, 0.308);}
+
+a#iconmenu{color: rgb(43, 41, 41)}
+a#iconmenu:active{ color: rgb(87, 92, 92);}
+a#iconmenu:hover{ color: rgb(82, 82, 82);}
+
+img{ max-width:100%;}
+
+.card li{ width:33.333333%; max-width: 100% ; float: left; display:inline-block; text-align: center; overflow: hidden; position: relative;}
+.card{ padding:0; display:flow-root;}
+
+.card li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card{background:rgba(0, 0, 0, 0) }
+.card{ border:rgba(0, 0, 0, 0)}
+
+.card li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+
+.card li .box_data  { background:rgba(0, 0, 0, 0) }
+.card li:hover .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:rgb(255, 255, 255);}
+.card .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:rgba(255, 255, 255, 0);}
+.card li:hover .box_data h3{ position:absolute; top: 30%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card li:hover .box_data p{ position:absolute; top: 45%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card li:hover .box_data span{ position:absolute; top: 60%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card li:hover .box_data{ background:rgba(248, 169, 235, 0.247)}
+
+.card1 figure{max-width: 100% ; float: left; display:inline-block; text-align: center; overflow: hidden; position: relative;}
+.card1{ padding:0; display:flow-root;}
+
+.card1 figure:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card1{background:rgba(0, 0, 0, 0) }
+.card1{ border:rgba(0, 0, 0, 0)}
+
+.card1 figure img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+
+.card1 figure .box_data  { background:rgba(0, 0, 0, 0) }
+.card1 figure:hover .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:rgb(255, 255, 255);}
+.card1 .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:rgba(255, 255, 255, 0);}
+.card1 figure:hover .box_data h3{ position:absolute; top: 30%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card1 figure:hover .box_data p{ position:absolute; top: 45%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card1 figure:hover .box_data span{ position:absolute; top: 60%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card1 figure:hover .box_data{ background:rgba(248, 169, 235, 0.247)}
+
+.card1 figure:hover .box_data h1{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:50px;}
+
+
+.card2 figure{max-width: 100% ; float: left; display:inline-block; text-align: center; overflow: hidden; position: relative;}
+.card2{ padding:0; display:flow-root;}
+
+.card2 figure:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card2{background:rgba(0, 0, 0, 0) }
+.card2{ border:rgba(0, 0, 0, 0)}
+
+.card2 figure img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+
+.card2 figure .box_data  { background:rgba(0, 0, 0, 0) }
+.card2 figure:hover .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:rgb(255, 255, 255);}
+.card2 .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:rgba(255, 255, 255, 0);}
+.card2 figure:hover .box_data h3{ position:absolute; top: 30%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card2 figure:hover .box_data p{ position:absolute; top: 45%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card2 figure:hover .box_data span{ position:absolute; top: 60%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.card2 figure:hover .box_data{ background:rgba(64, 133, 173, 0.568)}
+
+.list-group-item {
+    user-select: none;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .list-group input[type="checkbox"] {
+    display: none;
+  }
+  
+  .list-group input[type="checkbox"] + .list-group-item {
+    cursor: pointer;
+  }
+  
+  .list-group input[type="checkbox"] + .list-group-item:before {
+    content: "\2713";
+    color: transparent;
+    font-weight: bold;
+    margin-right: 1em;
+  }
+  
+  .list-group input[type="checkbox"]:checked + .list-group-item {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: #FFF;
+  }
+  
+  .list-group input[type="checkbox"]:checked + .list-group-item:before {
+    color: inherit;}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #2a9134;
+    transition: all 0.5s ease;
+}
+
+.change.navbar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change.navbar2{
+    opacity: 0;
+}
+
+.change.navbar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    min-height: 60vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+}
+
+

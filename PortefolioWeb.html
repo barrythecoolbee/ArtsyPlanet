@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Artsy Planet</title>
+    <link rel="shortcut icon" href="Imgs/Dragon.png">
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afbed5cac4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col text-left bg-secondary">
+            <a href="https://www.facebook.com/miguel.estrela.54" class="btn bg-secondary">
+                <i class="fab fa-facebook fa-1x text-primary m-2"></i>
+            </a>
+            <a href="https://twitter.com/JohnCena" class="btn bg-secondary">
+                <i class="fab fa-twitter fa-1x text-primary m-2"></i>
+            </a>
+            <a href="https://www.instagram.com/flashgirl.s/?hl=pt" class="btn bg-secondary">
+                <i class="fab fa-instagram fa-1x text-primary m-2"></i>
+            </a>
+        </div>
+        <div class="col text-right font-italic font-weight-bold pr-4 pt-2 bg-secondary">All Rights Reserved</div>
+    </div>
+    <nav class="navbar py-3 navbar-dark navbar-expand-sm bg-dark">
+        <!-- logo -->
+        <a href="#" class="navbar-brand h1">
+            <h1><i class="fas fa-dragon"></i> Artsy Planet </h1>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="navbar-toggler-icon text-primary"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <div class="nav-item dropdown">
+                    <button type="button" class="btn btn-dark dropdown-toggle nav-link" data-toggle="dropdown">
+                        Galery
+                    </button>
+                    <div class="dropdown-menu bg-dark" id="drop">
+                        <a class="dropdown-item nav-link " href="#card">Sketchbook</a>
+                        <a class="dropdown-item nav-link " href="#photography">Photography</a>
+                        <a class="dropdown-item nav-link " href="#inspire">Inspire yourself</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a href="#learn" class="nav-link">Learn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home" class="bg-info border-bottom border-white rounded mb-5">
+        <!-- carousel section -->
+        <div class="container height">
+            <!--section-title -->
+            <div class="row ">
+                <div class="col text-center">
+                    <p></p>
+                    <h1 class="text-white mb-0">
+                        “Everything you can imagine is real.”
+                    </h1>
+                    <p class="text-white"> ― Pablo Picasso</p>
+                </div>
+            </div>
+            <!-- end of section-title -->
+
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <div id="example" class="carousel slide carousel-fade z-depth-1-half" data-ride='carousel'>
+                        <!-- indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#example" data-slide-to='0' class="active"></li>
+                            <li data-target="#example" data-slide-to='1'></li>
+                            <li data-target="#example" data-slide-to='2'></li>
+                        </ul>
+                        <!-- images -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item pb-3 active">
+                                <a href="Imgs/Photo/imgf35.jpeg">
+                                    <img class="d-block w-100" src="Imgs/Photo/imgf35.jpeg" alt="Image 1"
+                                        class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h5 id="carousel">You'll never know until you go</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item pb-3">
+                                <a href="Imgs/Photo/imgf51.jpeg">
+                                    <img class="d-block w-100" src="Imgs/Photo/imgf51.jpeg" alt="Image 2"
+                                        class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h5 id="carousel">Go wild, for a while</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item pb-3">
+                                <a href="Imgs/Photo/imgff7.jpg">
+                                    <img class="d-block w-100" src="Imgs/Photo/imgff7.jpg" alt="Image 3"
+                                        class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h5 id="carousel">An image always tells a story</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of images -->
+                        <!-- controls -->
+                        <a href="#example" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon text-info"></span>
+                        </a>
+                        <a href="#example" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon text-info"></span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of carousel section -->
+    </header>
+    <p></p>
+    <h1 class="text-center"><a href="PortefolioWeb.html" id="iconmenu"><i class="fas fa-hat-wizard"></i></a></h1>
+    <!-- SERVIRÁ DE BOTAO PARA REGRESSAR AO MENU -->
+    <section id="card">
+        <div class="container height">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <p></p>
+                    <h1 class="text-white mb-0" id="h1sketch">
+                        Sketchbook
+                    </h1>
+                    <p></p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <ul class="card">
+                <li>
+                    <a href="Imgs/img1.JPG"><img src="Imgs/img1.JPG">
+                        <div class="box_data">
+                            <h3 class="title">Watercolor</h3>
+                            <p><i class="fas fa-moon"></i></p>
+                            <span class="post">Made by Bee</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Imgs/img4.JPG"><img src="Imgs/img4.JPG">
+                        <div class="box_data">
+                            <h3 class="title">Color Pencil</h3>
+                            <p><i class="fas fa-moon"></i></p>
+                            <span class="post">Made by Bee</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Imgs/img3.JPG"><img src="Imgs/img3.JPG">
+                        <div class="box_data">
+                            <h3 class="title">Watercolor</h3>
+                            <p><i class="fas fa-moon"></i></p>
+                            <span class="post">Made by Bee</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Imgs/img18.jpg"><img src="Imgs/img19.jpg">
+                        <div class="box_data">
+                            <h3 class="title">Line Drawing</h3>
+                            <p><i class="fas fa-moon"></i></p>
+                            <span class="post">Made by Bee</span>
+                        </div>
+                    </a>
+                </li>
+                <li id="fotodes">
+                    <a href="Imgs/img2.JPG"><img src="Imgs/img2.JPG">
+                        <div class="box_data">
+                            <h3 class="title">Watercolor</h3>
+                            <p><i class="fas fa-moon"></i></p>
+                            <span class="post">Made by Bee</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Imgs/img13.JPG"><img src="Imgs/img113.JPG">
+                        <div class="box_data">
+                            <h3 class="title">Brush Pen</h3>
+                            <p><i class="fas fa-moon"></i></p>
+                            <span class="post">Made by Bee</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <h1 class="text-center"><a href="PortefolioWeb.html" id="iconmenu"><i class="fas fa-quidditch"></i></a></h1>
+
+    <section id="photography" class="mb-5">
+        <div class="container height">
+            <div class="row">
+                <div class="col text-center">
+                    <p></p>
+                    <h1 class="text-white mb-0" id="h1photo">
+                        Photography
+                    </h1>
+                    <p></p>
+                </div>
+                <div class="card1 no-margin">
+                    <figure>
+                        <a href="Imgs/Photo/imgf22.JPG" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf22.JPG" class="img-fluid">
+                            <div class="box_data">
+                                <h3 class="title">Exploring The Mountains</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Picos da Europa</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf42.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf42.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Mystical Fog</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Picos da Europa</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf55.png" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf555.png" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Ladybug</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Lazy day in the countryside</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff9.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff9.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Sunset City</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Viana do Castelo</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff6.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff66.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Frog</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Peneda-Gerês</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf41.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf41.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Sunset Clouds</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Somewhere in Spain</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf47.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf47.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Monkey</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Zoo</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf18.JPG" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf18.JPG" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Butterfly</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Quinta da Regaleira</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf46.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf46.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Lazy Lion</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Zoo</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff8.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff8.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Sunset Beach</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Caminha</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff2.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff2.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Friendship</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Barcelos</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf3.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf3.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Sunset in the Countryside</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Figueirinha, Beja</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf4.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf44.jpg" class="img-fluid">
+                            <div class="box_data">
+                                <h3 class="title">Llama</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Figueirinha, Beja</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff5.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff5.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Waterfall adventures</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Peneda-Gerês</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf11.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf111.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Pipas</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Lazy day</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf50.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf50.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Stories of a Family</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Zoo</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf28.JPG" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf28.JPG" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Colorful Thoughts</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Gulbenkian Museum</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf45.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf45.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Tiger</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Zoo</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgf36.jpeg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgf36.jpeg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Roman Bridge</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Cangas de Onís</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff3.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff3.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Pipas</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">After Great Adventures</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure>
+                        <a href="Imgs/Photo/imgff1.jpg" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Photo/imgff1.jpg" class="img-fluid" />
+                            <div class="box_data">
+                                <h3 class="title">Owl</h3>
+                                <p><i class="fab fa-pagelines"></i></p>
+                                <span class="post">Viana do Castelo</span>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center"><a href="PortefolioWeb.html" id="iconmenu"><i class="fas fa-magic"></i></i></a></h1>
+
+    <section id="inspire" class="mb-5">
+        <div class="container height">
+            <div class="row">
+                <div class="col text-center">
+                    <p></p>
+                    <h1 class="text-white mb-0" id="h1photo">
+                        Inspire Yourself
+                    </h1>
+                    <p></p>
+                </div>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col">
+                            <p></p>
+                            <h1 class="text-white mb-0" id="h1challenge">
+                                Drawing Challenge
+                            </h1>
+                            <p></p>
+                            <h1><i class="fas fa-paper-plane"></i></h1>
+                            <ul class="list-group list-group-flush">
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox1" />
+                                <label class="list-group-item text-white" for="CheckBox1">Cat With a Human Body</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox2" />
+                                <label class="list-group-item text-white" for="CheckBox2">Daily Life Of a Mermaid</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox3" />
+                                <label class="list-group-item text-white" for="CheckBox3">Declaration Of Love For Food</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox4" />
+                                <label class="list-group-item text-white" for="CheckBox4">Alien</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox5" />
+                                <label class="list-group-item text-white" for="CheckBox5">Plants</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox6" />
+                                <label class="list-group-item text-white" for="CheckBox6">Movie Scene</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox7" />
+                                <label class="list-group-item text-white" for="CheckBox7">A Person In The Bedroom</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox8" />
+                                <label class="list-group-item text-white" for="CheckBox8">A Song</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox9" />
+                                <label class="list-group-item text-white" for="CheckBox9">Daily Life Of a Witch</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox10" />
+                                <label class="list-group-item text-white" for="CheckBox10">A Person With a Pet</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox11" />
+                                <label class="list-group-item text-white" for="CheckBox11">Your Sign</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox12" />
+                                <label class="list-group-item text-white" for="CheckBox12">Grow Old a Character</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox13" />
+                                <label class="list-group-item text-white" for="CheckBox13">Robot With Feelings</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox14" />
+                                <label class="list-group-item text-white" for="CheckBox14">Daily Life Of an Astronaut</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox15" />
+                                <label class="list-group-item text-white" for="CheckBox15">Your Favorite Series</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox16" />
+                                <label class="list-group-item text-white" for="CheckBox16">Drag Queen</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox17" />
+                                <label class="list-group-item text-white" for="CheckBox17">Monday</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox18" />
+                                <label class="list-group-item text-white" for="CheckBox18">Favorite Part Of The Day</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox19" />
+                                <label class="list-group-item text-white" for="CheckBox19">Favorite Holiday</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox20" />
+                                <label class="list-group-item text-white" for="CheckBox20">An Outfit</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox21" />
+                                <label class="list-group-item text-white" for="CheckBox21">Demon</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox22" />
+                                <label class="list-group-item text-white" for="CheckBox22">Something You Miss</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox23" />
+                                <label class="list-group-item text-white" for="CheckBox23">A Happy Monster</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox24" />
+                                <label class="list-group-item text-white" for="CheckBox24">Angel</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox25" />
+                                <label class="list-group-item text-white" for="CheckBox25">A Place You Want To Go</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox26" />
+                                <label class="list-group-item text-white" for="CheckBox26">Magic</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox27" />
+                                <label class="list-group-item text-white" for="CheckBox27">Something On Fire</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox28" />
+                                <label class="list-group-item text-white" for="CheckBox28">A Troll</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox29" />
+                                <label class="list-group-item text-white" for="CheckBox29">Super Hero</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox30" />
+                                <label class="list-group-item text-white" for="CheckBox30">Super Villain</label>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <p></p>
+                            <h1 class="text-white mb-0" id="h1challenge">
+                                Photography Challenge
+                            </h1>
+                            <p></p>
+                            <h1><i class="fas fa-tree"></i></h1>
+                            <ul class="list-group list-group-flush">
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox1a" />
+                                <label class="list-group-item text-white" for="CheckBox1a">Self-Portrait</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox2a" />
+                                <label class="list-group-item text-white" for="CheckBox2a">What You Wore Today</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox3a" />
+                                <label class="list-group-item text-white" for="CheckBox3a">Clouds</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox4a" />
+                                <label class="list-group-item text-white" for="CheckBox4a">Something Green</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox5a" />
+                                <label class="list-group-item text-white" for="CheckBox5a">From a High Angle</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox6a" />
+                                <label class="list-group-item text-white" for="CheckBox6a">From a Low Angle</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox7a" />
+                                <label class="list-group-item text-white" for="CheckBox7a">Fruit</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox8a" />
+                                <label class="list-group-item text-white" for="CheckBox8a">A Bad Habit</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox9a" />
+                                <label class="list-group-item text-white" for="CheckBox9a">Someone You Love</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox10a" />
+                                <label class="list-group-item text-white" for="CheckBox10a">Childhood Memory</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox11a" />
+                                <label class="list-group-item text-white" for="CheckBox11a">Something Blue</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox12a" />
+                                <label class="list-group-item text-white" for="CheckBox12a">Sunset</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox13a" />
+                                <label class="list-group-item text-white" for="CheckBox13a">Yourself With 13 Things</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox14a" />
+                                <label class="list-group-item text-white" for="CheckBox14a">Eyes</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox15a" />
+                                <label class="list-group-item text-white" for="CheckBox15a">Silhouettes</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox16a" />
+                                <label class="list-group-item text-white" for="CheckBox16a">Long Exposure</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox17a" />
+                                <label class="list-group-item text-white" for="CheckBox17a">Technology</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox18a" />
+                                <label class="list-group-item text-white" for="CheckBox18a">Your Shoes</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox19a" />
+                                <label class="list-group-item text-white" for="CheckBox19a">Bokeh</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox20a" />
+                                <label class="list-group-item text-white" for="CheckBox20a">Faceless Self-Portrait</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox21a" />
+                                <label class="list-group-item text-white" for="CheckBox21a">Hands</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox22a" />
+                                <label class="list-group-item text-white" for="CheckBox22a">Rock/Stone</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox23a" />
+                                <label class="list-group-item text-white" for="CheckBox23a">Animal</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox24a" />
+                                <label class="list-group-item text-white" for="CheckBox24a">Close-Up</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox25a" />
+                                <label class="list-group-item text-white" for="CheckBox25a">From a Distance</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox26a" />
+                                <label class="list-group-item text-white" for="CheckBox26a">Flowers</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox27a" />
+                                <label class="list-group-item text-white" for="CheckBox27a">Black & White</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox28a" />
+                                <label class="list-group-item text-white" for="CheckBox28a">Self-Portrait</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox29a" />
+                                <label class="list-group-item text-white" for="CheckBox29a">Something Orange</label>
+                                <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox30a" />
+                                <label class="list-group-item text-white" for="CheckBox30a">Something Pink or Purple</label>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center"><a href="PortefolioWeb.html" id="iconmenu"><i class="fas fa-book-dead"></i></a></h1>
+
+    <section id="learn" class="mb-5">
+        <div class="container height">
+            <div class="row">
+                <div class="col text-center">
+                    <p></p>
+                    <h1 class="text-white mb-0" id="h1sketch">
+                        Learn
+                    </h1>
+                    <p></p>
+                </div>
+                <div class="card2 no-margin mb-5">
+                    <figure>
+                        <a href="https://giannaandrews.com/" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Gianna.png" class="img-fluid">
+                            <div class="box_data">
+                                <h3 class="title">Gianna Andrew</h3>
+                                <p><i class="fas fa-spider"></i></p>
+                                <span class="post">Art inspired by nature</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://natharaujo.com" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Nath.png" class="img-fluid">
+                            <div class="box_data">
+                                <h3 class="title">Nath Araujo</h3>
+                                <p><i class="fas fa-spider"></i></p>
+                                <span class="post">Feelings expressed by art </span>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.instagram.com/thewildgypsybrand/?hl=pt" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/Gypsy.png" class="img-fluid">
+                            <div class="box_data">
+                                <h3 class="title">Wild Gypsy</h3>
+                                <p><i class="fas fa-spider"></i></p>
+                                <span class="post">Hand painted clothes</span>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="card1 mb-5">
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=w8dilpwWhuY" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/1.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=5OQPgxis_c4" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/2.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=CFKBtWcjqM0" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/3.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=ZY6IBjKSgRI" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/4.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=WjQYk9oZq1o" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/5.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=TBzbIRsNyd0" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/6.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=fXPeOrVKn_M" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/10.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=mGXOrP9BVFs" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/8.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=g2p2MiFq3ak" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/12.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=M3HJOLqtO8k" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/7.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=k4dJr4Doz-o" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/11.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=_zhkGPoCMyw" data-size="1600x1067">
+                            <img alt="picture" src="Imgs/9.png" class="img-fluid">
+                            <div class="box_data">
+                                <h1><i class="fab fa-youtube"></i></i></h1>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center"><a href="PortefolioWeb.html" id="iconmenu"><i class="fas fa-bolt"></i></a></h1>
+
+    <section id="about" class="mb-5">
+        <div class="container height">
+            <div class="row">
+                <div class="col text-center">
+                    <p></p>
+                    <h1 class="text-white mb-0" id="h1sketch">
+                        About us
+                    </h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="card1">
+                <figure id="profilepic">
+                    <a href="Imgs/profile.jpeg" data-size="1600x1067">
+                        <img alt="picture" src="Imgs/profile.jpeg" class="img-fluid">
+                    </a>
+                </figure>
+            </div>
+            <div id="progress">
+                <div class="text-white">
+                    <h3>Our Mission</h3>
+                    <p>Artsy Planet is a catalyst for artist to feel, see and share their art.</p>
+                        
+                    <h3>Our Essence</h3>
+                    <p>At our core, Artsy Planet operates on Imagination, Individuality, Inclusivity & Sharing.</p>
+                        
+                    <h3>Our Promise</h3>
+                    <p>We deliver diverse ideas, amazing photos, learning materials to our audience of smart, imaginative, curious and passionate artists.</p> 
+                        
+                    <h3>Our Vibe</h3>
+                    <p>At Artsy Planet, we make magic. We dream it, and then we do it - together - every day reinventing the world.</p>
+                </div>
+                <div class="progress ml-4 mr-4 mb-4 mt-4" style="height: 30px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger text-white font-weight-bold"
+                        role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                        id="h1sketch">Creatividade - 100%</div>
+                </div>
+                <div class="progress ml-4 mr-4 mb-4 mt-3" style="height: 30px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-secondary font-weight-bold"
+                        role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">Expensive material - 15%
+                    </div>
+                </div>
+                <div class="progress ml-4 mr-4 mb-4 mt-3" style="height: 30px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success text-white font-weight-bold"
+                        role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Cheap material - 85%</div>
+                </div>
+                <div class="progress ml-4 mr-4 mb-4 mt-3" style="height: 30px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-white font-weight-bold"
+                        role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Dificulty of learning - 25%</div>
+                </div>
+                <div class="progress ml-4 mr-4 mb-4 mt-3" style="height: 30px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated text-white font-weight-bold"
+                        role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                        aria-valuemax="100"> Imagination - 100%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer id="contacto" class="bg-dark">
+        <div class="container">
+            <!--section-title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-white mb-0">
+                        Contact us
+                    </h1>
+                    <p class="text-white text-center" id="footer">Designed by Bee and Estrela</p>
+                </div>
+            </div>
+            <form class="text-center">
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                    <div class="md-form">
+                        <input type="text" class="form-control mb-0" id="inlineFormInputMD" placeholder="*Enter your email*">
+                        <label class="sr-only" for="inlineFormInputMD">Name</label>
+                    </div>
+                    </div>
+                    <div class="col-auto">
+                    <button href="#contacto" type="submit" class="btn btn-secondary mb-0">Submit</button>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </form>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="https://www.facebook.com/miguel.estrela.54" class="btn">
+                        <i class="fab fa-facebook fa-3x text-primary m-2"></i>
+                    </a>
+                    <a href="https://twitter.com/JohnCena" class="btn">
+                        <i class="fab fa-twitter fa-3x text-primary m-2"></i>
+                    </a>
+                    <a href="https://www.instagram.com/flashgirl.s/?hl=pt" class="btn">
+                        <i class="fab fa-instagram fa-3x text-primary m-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer section -->
+    <script>
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function () {
+                $(".navbar-toggler").toggleClass("change");
+            });
+        });
+    </script>
+    <!-- <script>
+                                    $(document).ready(function(){
+                                        $(".dropdown-toggle").click(function(){
+                                            $(".dropdown-toggle").toggleClass("change");
+                                        });
+                                    });
+                                    </script> <-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
